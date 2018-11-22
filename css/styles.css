@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(255, 200, 250);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.archive-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20% 5%;
+}
+
+.archive-item {
+    background-color: orange;
+    justify-self: space-around;
+    justify-content: center;
+}
+
+.site_title {
+    display: inline;
+    margin-right: 20%;
+}
+

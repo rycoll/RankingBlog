@@ -1,0 +1,22 @@
+collections:
+  levels:
+    output: true
+
+defaults:
+  - 
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      permalink: "/:title"
+  -
+    scope:
+      path: ""
+      type: "levels"
+    values:
+      layout: "level"
