@@ -15,6 +15,19 @@ body {
     justify-content: center;
 }
 
+.featured-level-container {
+    height: 300px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.featured-level {
+    width: 45%;
+    height: 100%;
+    border: 1px dotted red;
+    display: inline-block;
+}
+
 .level-banner-container {
     border: 1px solid black;
     width: 100%;
@@ -24,8 +37,11 @@ body {
     display: inline;
 }
 
-.site_title {
-    display: inline;
-    margin-right: 20%;
+.site_header {
+    display: flex;
+    align-items: center;
 }
 
+.site_nav {
+    margin-right: 20%;
+}

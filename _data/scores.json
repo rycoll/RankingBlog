@@ -8,5 +8,15 @@
             "setting": 3,
             "quests": 3
         }
+    },
+    "Summer Forest": {
+        "gems": 400,
+        "orbs": 3,
+        "scores": {
+            "overall": 2,
+            "aesthetic": 4,
+            "setting": 2,
+            "quests": 1
+        }
     }
 }

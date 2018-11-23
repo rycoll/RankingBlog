@@ -1,6 +1,6 @@
 ---
 title: Idol Springs
 hub: Summer Forest
-chron: 3
+chron_order: 3
 ---
 idol spr

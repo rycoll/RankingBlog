@@ -2,3 +2,13 @@
 title: Index
 permalink: "/index"
 ---
+{% assign sorted_levels = site.levels | sort: "chron_order" %}
+
+<div class="featured-level-container">
+    <div class="featured-level">
+        <h3>Best level: <a href='{{sorted_levels.first.url}}'>{{sorted_levels.first.title}}</a></h3>
+    </div>
+    <div class="featured-level">
+        <h3>Worst level: <a href='{{sorted_levels.last.url}}'>{{sorted_levels.last.title}}</a></h3>
+    </div>
+</div>
