@@ -15,6 +15,15 @@ body {
     justify-content: center;
 }
 
+.level-banner-container {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.level-banner-stats {
+    display: inline;
+}
+
 .site_title {
     display: inline;
     margin-right: 20%;

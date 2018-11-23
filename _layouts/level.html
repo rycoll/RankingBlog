@@ -1,4 +1,26 @@
 ---
 layout: default
 ---
-<h1>Level: {{page.title}}</h1>
+<div class='level-banner-container' style='background-image: url({{page.img_path}})'>
+    <h1>Level: {{page.title}}</h1>
+    <ul>
+        <li class='level-banner-stats'>Gems: {{site.data.scores[page.title].gems}}</li>
+        <li class='level-banner-stats'>Orbs: {{site.data.scores[page.title].orbs}}</li>
+        <li class='level-banner-stats'>Score: {{site.data.scores[page.title].scores.overall}} / 5</li>
+    </ul>
+</div>
+
+{% assign contentArray = page.content | markdownify | split: site.excerpt_separator %}
+
+<h3>Aesthetics: {{site.data.scores[page.title].scores.aesthetic}} / 5</h3>
+{{ contentArray[0] }}
+
+<h3>Setting: {{site.data.scores[page.title].scores.setting}} / 5</h3>
+{{ contentArray[1] }}
+
+<h3>Quests: {{site.data.scores[page.title].scores.quests}} / 5</h3>
+{{ contentArray[2] }}
+
+<h3>Overall: {{site.data.scores[page.title].scores.overall}} / 5</h3>
+{{ contentArray[3] }}
+

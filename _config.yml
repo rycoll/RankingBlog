@@ -1,3 +1,5 @@
+excerpt_separator: "<!--excerpt-->"
+
 collections:
   levels:
     output: true

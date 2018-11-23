@@ -3,8 +3,9 @@
         "gems": 200,
         "orbs": 2,
         "scores": {
+            "overall": 3,
             "aesthetic": 3,
-            "story": 3,
+            "setting": 3,
             "quests": 3
         }
     }
