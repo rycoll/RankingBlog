@@ -3,24 +3,39 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+.site_nav:hover {
+    background-color: orange;
+}
+
 .archive-grid {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 5% 5px%;
+}
+
+.archive-grid-title {
+    grid-column: span 3;
+    font-weight: bold;
+    color: white;
+    justify-self: center;
 }
 
 .archive-item {
-    justify-self: space-around;
-    justify-content: center;
     background-color: black;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    height: 200px;
-    width: 300px;
+    height: 250px;
+    width: 90%;
+    margin: 10px;
 }
 
 .archive-item-text {
+    display:inline;
+    background-color: black;
     color: white;
     font-weight: bold;
     font-size: 2em;
@@ -61,4 +76,8 @@ body {
 
 .site_nav {
     margin-right: 20%;
+}
+
+.site_title {
+    line-height: 2px;
 }

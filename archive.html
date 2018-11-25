@@ -3,19 +3,22 @@ title: Archive
 permalink: "/archive"
 ---
 {% assign sorted_levels = site.levels | sort: "chron_order" %}
-<div class="archive-grid">    
-{% for item in sorted_levels %}
-    {% assign current_hub = item.hub %}
-    {% if current_hub != previous_hub %}
-        </div>
-        <h3>{{current_hub}}</h3>
-        <div class="archive-grid">  
-    {% endif %}
-    <a href="{{item.url}}">
-        <div class="archive-item" style='background-image: url({{item.image_path | relative_url}})'>
-            <h3 class="archive-item-text">{{item.title}}</h3>
-        </div>
-    </a>
-    {% assign previous_hub = current_hub %}
-{% endfor %}
+<div class="archive-grid">
+    <h1 class="archive-grid-title">{{sorted_levels.first.hub}}</h1>
+    {% assign previous_hub = sorted_levels.first.hub %} 
+    {% for item in sorted_levels %}
+        {% assign current_hub = item.hub %}
+        {% if current_hub != previous_hub %}
+            </div><br>
+            <div class="archive-grid"> 
+                <h1 class="archive-grid-title">{{current_hub}}</h1> 
+        {% endif %}
+        <a href="{{item.url}}">
+            <div class="archive-item" style='background-image: url({{item.image_path | relative_url}})'>
+                <h3 class="archive-item-text">{{item.title}}</h3><br>
+                <h4 class="archive-item-text">{{site.data.scores[item.title].scores.overall}} / 5</h4>
+            </div>
+        </a>
+        {% assign previous_hub = current_hub %}
+    {% endfor %}
 </div>
