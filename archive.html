@@ -10,11 +10,12 @@ permalink: "/archive"
         </div>
         <h3>{{current_hub}}</h3>
         <div class="archive-grid">  
-    {% endif %}    
-    <div class="archive-item">
-        <img src="">
-        <a href="{{item.url}}">{{item.title}}</a>
-    </div>
+    {% endif %}
+    <a href="{{item.url}}">
+        <div class="archive-item" style='background-image: url({{item.image_path | relative_url}})'>
+            <h3 class="archive-item-text">{{item.title}}</h3>
+        </div>
+    </a>
     {% assign previous_hub = current_hub %}
 {% endfor %}
 </div>

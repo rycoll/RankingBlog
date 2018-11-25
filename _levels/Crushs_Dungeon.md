@@ -1,8 +1,8 @@
 ---
-title: Summer Forest
+title: Crush's Dungeon
 hub: Summer Forest
-chron_order: 2
-image_path: 'images/Summer Forest/Summer Forest.jpg'
+chron_order: 8
+image_path: 'images/Crushs Dungeon/Crushs Dungeon.jpg'
 ---
 Aesthetics (art and music)
 <!--excerpt-->

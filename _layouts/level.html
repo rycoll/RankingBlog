@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class='level-banner-container' style='background-image: url({{page.img_path}})'>
+<div class='level-banner-container' style='background-image: url({{page.image_path | relative_url}})'>
     <h1>Level: {{page.title}}</h1>
     <ul>
         <li class='level-banner-stats'>Gems: {{site.data.scores[page.title].gems}}</li>

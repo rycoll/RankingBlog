@@ -1,8 +1,8 @@
 ---
-title: Summer Forest
+title: Aquaria Towers
 hub: Summer Forest
-chron_order: 2
-image_path: 'images/Summer Forest/Summer Forest.jpg'
+chron_order: 7
+image_path: 'images/Aquaria Towers/Aquaria Towers.jpg'
 ---
 Aesthetics (art and music)
 <!--excerpt-->

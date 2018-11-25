@@ -1,8 +1,8 @@
 ---
-title: Summer Forest
+title: Hurricos
 hub: Summer Forest
-chron_order: 2
-image_path: 'images/Summer Forest/Summer Forest.jpg'
+chron_order: 5
+image_path: 'images/Hurricos/Hurricos.jpg'
 ---
 Aesthetics (art and music)
 <!--excerpt-->

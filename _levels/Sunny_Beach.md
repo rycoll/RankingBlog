@@ -1,8 +1,8 @@
 ---
-title: Summer Forest
+title: Sunny Beach
 hub: Summer Forest
-chron_order: 2
-image_path: 'images/Summer Forest/Summer Forest.jpg'
+chron_order: 6
+image_path: 'images/Sunny Beach/Sunny Beach.jpg'
 ---
 Aesthetics (art and music)
 <!--excerpt-->

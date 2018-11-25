@@ -1,8 +1,8 @@
 ---
-title: Summer Forest
-hub: Summer Forest
-chron_order: 2
-image_path: 'images/Summer Forest/Summer Forest.jpg'
+title: Autumn Plains
+hub: Autumn Plains
+chron_order: 9
+image_path: 'images/Autumn Plains/Autumn Plains.jpg'
 ---
 Aesthetics (art and music)
 <!--excerpt-->

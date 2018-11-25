@@ -1,8 +1,8 @@
 ---
-title: Summer Forest
-hub: Summer Forest
-chron_order: 2
-image_path: 'images/Summer Forest/Summer Forest.jpg'
+title: Crystal Glacier
+hub: Autumn Plains
+chron_order: 11
+image_path: 'images/Crystal Glacier/Crystal Glacier.jpg'
 ---
 Aesthetics (art and music)
 <!--excerpt-->

@@ -2,10 +2,7 @@
 title: Glimmer
 hub: Summer Forest
 chron_order: 1
-overall: 3
-aesthetic: 3
-setting: 3
-quests: 3
+image_path: 'images/Glimmer/Glimmer.png'
 ---
 It's okay. Colourful!
 <!--excerpt-->
