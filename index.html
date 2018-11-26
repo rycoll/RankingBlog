@@ -6,6 +6,9 @@ permalink: "/index"
 
 <div class="featured-level-container">
     <h2 class='archive-grid-title'>Featured Levels</h2>
-    {% include featured_item.html url=sorted_levels.first.url image_path=sorted_levels.first.image_path title=sorted_levels.first.title %}
-    {% include featured_item.html url=sorted_levels.last.url image_path=sorted_levels.last.image_path title=sorted_levels.last.title %}
+    {% assign best_text = "Best level: " | append: sorted_levels.first.title %}
+    {% include featured_item.html url=sorted_levels.first.url image_path=sorted_levels.first.image_path title=best_text %}
+
+    {% assign worst_text = "Worst level: " | append: sorted_levels.last.title %}
+    {% include featured_item.html url=sorted_levels.last.url image_path=sorted_levels.last.image_path title=worst_text %}
 </div>

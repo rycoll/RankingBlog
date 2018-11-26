@@ -18,10 +18,10 @@ body {
 
 .archive-grid {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-.archive-grid a, .featured-level-container a {
+.archive-grid a, .award-container a, .featured-level-container a {
     text-decoration: none;
 }
 
@@ -49,6 +49,17 @@ body {
     font-size: 2.5em;
     text-align: center;
     background: rgba(0, 0, 0, 0.1);
+}
+
+.award-container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.award-container {
+    margin: 0px;
+    text-align: center;
+    align-content: center;
 }
 
 .featured-level-container {
