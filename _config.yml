@@ -1,5 +1,8 @@
 excerpt_separator: "<!--excerpt-->"
 
+title: Ripto's Rankings
+description: Every Spyro 2 level, ranked
+
 collections:
   levels:
     output: true
@@ -17,3 +20,12 @@ defaults:
       type: "levels"
     values:
       layout: "level"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+feed:
+  collections:
+    - awards
+    - levels
