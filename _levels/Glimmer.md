@@ -3,6 +3,11 @@ title: Glimmer
 hub: Summer Forest
 chron_order: 1
 image_path: 'images/Glimmer/Glimmer.png'
+sky_image_path: 'images/Glimmer/Glimmer sky.png'
+score: 2.5
+art: 4
+setting: 1
+gameplay: 3
 ---
 Glimmer is a lovely, colourful place to run around in while learning the basic controls of the game. The sky is bright, but you can see the moon and stars. The Gemcutter's buildings are heavily-adorned with gems, which I guess impresses the importance of gems on new players, as well as looking cool. The Gemcutters themselves are cute little squirrel people. The music for this level is pretty funky too, so good overall!
 <!--excerpt-->
@@ -17,6 +22,6 @@ The spitting-rocks-at-lizards quest is fairly fun. It gives you a tour of the le
 
 The other two quests involve flaming crystal lamps while super-flying around, which is also pretty fun. 
 
-Overall, the gameplay in Glimmer is pretty solid. It's not too in-your-face with the tutorialising, which is mostly dished out slowly between here and ["/Summer_Forest.md"](Summer Forest).
+Overall, the gameplay in Glimmer is pretty solid. It's not too in-your-face with the tutorialising, which is mostly dished out slowly between here and [Summer Forest]({{'/levels/Summer_Forest.html' | relative_url}}).
 <!--excerpt-->
 Glimmer definitely gets the game off on the right foot.
