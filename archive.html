@@ -15,8 +15,8 @@ permalink: "/archive"
         {% endif %}
         <a href="{{item.url}}">
             <div class="archive-item" style='background-image: url({{item.image_path | relative_url}})'>
-                <h3 class="archive-item-text">{{item.title}}</h3><br>
-                <h4 class="archive-item-text">{{site.data.scores[item.title].scores.overall}} / 5</h4>
+                <h3 class="archive-item-text">{{item.title}}</h3>
+                <h4 class="archive-item-text">{{item.score}} / 5</h4>
             </div>
         </a>
         {% assign previous_hub = current_hub %}

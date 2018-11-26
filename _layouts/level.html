@@ -1,26 +1,27 @@
 ---
 layout: default
 ---
-<div class='level-banner-container' style='background-image: url({{page.image_path | relative_url}})'>
-    <h1>Level: {{page.title}}</h1>
-    <ul>
-        <li class='level-banner-stats'>Gems: {{site.data.scores[page.title].gems}}</li>
-        <li class='level-banner-stats'>Orbs: {{site.data.scores[page.title].orbs}}</li>
-        <li class='level-banner-stats'>Score: {{site.data.scores[page.title].scores.overall}} / 5</li>
-    </ul>
+<div class='level-banner-container' style='background-image: url({{page.sky_image_path | relative_url}})'>
+    <h1>{{page.title}}</h1>
+    <h1>{{page.score}} / 5</h1>
 </div>
 
-{% assign contentArray = page.content | markdownify | split: site.excerpt_separator %}
+<div id='level-content'>
+    {% assign contentArray = page.content | markdownify | split: site.excerpt_separator %}
 
-<h3>Aesthetics: {{site.data.scores[page.title].scores.aesthetic}} / 5</h3>
-{{ contentArray[0] }}
+    <h3>Aesthetics: {{page.art}} / 5</h3>
+    <p>{{ contentArray[0] }}</p>
+    <hr>
 
-<h3>Setting: {{site.data.scores[page.title].scores.setting}} / 5</h3>
-{{ contentArray[1] }}
+    <h3>Setting: {{page.setting}} / 5</h3>
+    <p>{{ contentArray[1] }}</p>
+    <hr>
 
-<h3>Quests: {{site.data.scores[page.title].scores.quests}} / 5</h3>
-{{ contentArray[2] }}
+    <h3>Quests: {{page.gameplay}} / 5</h3>
+    <p>{{ contentArray[2] }}</p>
+    <hr>
 
-<h3>Overall: {{site.data.scores[page.title].scores.overall}} / 5</h3>
-{{ contentArray[3] }}
+    <h3>Overall: {{page.score}} / 5</h3>
+    <p>{{ contentArray[3] }}</p>
+</div>
 
