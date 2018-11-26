@@ -6,8 +6,8 @@
         </a>
     </div>
     <div id='site_nav'>
-        <h3><a href='/about'>About</a></h3>
-        <h3><a href='/archive'>All levels</a></h3>
-        <h3><a href='/awards'>Awards</a></h3>
+        {% include site_header_link.html url='/about' text="About" %}
+        {% include site_header_link.html url='/archive' text="All Levels" %}
+        {% include site_header_link.html url='/awards' text="Awards" %}
     </div>
 </header>

@@ -2,7 +2,7 @@
 title: Awards
 permalink: "/awards"
 ---
-<h1 style="text-align: center;">Special Mentions</h1>
+<h1 style="text-align: center;">Awards</h1>
 <div class="award-container-grid">
     {% for award_item in site.awards %}
         <div class="award-container">
@@ -12,5 +12,7 @@ permalink: "/awards"
             {% assign level = match_array.first %}
             {% include featured_item.html url=level.url title=level.title image_path=level.image_path%}
         </div>
+    {% else %}
+        <h1>There are no awards!</h1>
     {% endfor %}
 </div>

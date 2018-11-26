@@ -12,10 +12,6 @@ body {
     text-align: center;
 }
 
-.site_nav:hover {
-    background-color: orange;
-}
-
 .archive-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -104,6 +100,11 @@ body {
 #site_header a {
     text-decoration: none;
     color: orange;
+}
+
+#active-nav-link a {
+    text-decoration: underline;
+    color: red;
 }
 
 #site_title {
