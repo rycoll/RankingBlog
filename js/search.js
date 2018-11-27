@@ -7,7 +7,7 @@
   
         for (var i = 0; i < results.length; i++) {  // Iterate over the results
           var item = store[results[i].ref];
-          appendString += '<li><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
+          appendString += '<li class="search-list-item"><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
           appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
         }
   
@@ -33,7 +33,7 @@
     var searchTerm = getQueryVariable('spyro-query');
   
     if (searchTerm) {
-      document.getElementById('spyro-search-box').setAttribute("value", searchTerm);
+      document.getElementById('search-text-field').setAttribute("value", searchTerm);
   
       // Initalize lunr with the fields it will be searching on. I've given title
       // a boost of 10 to indicate matches on this field are more important.
