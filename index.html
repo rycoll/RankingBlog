@@ -5,7 +5,7 @@ permalink: "/index"
 {% assign sorted_levels = site.levels | sort: "score" | reverse %}
 
 <div class="featured-level-container">
-    <h2 class='archive-grid-title'>Featured Levels</h2>
+    <h2 class='featured-level-title'>Featured Levels</h2>
     {% assign best_text = "Best level: " | append: sorted_levels.first.title %}
     {% include featured_item.html url=sorted_levels.first.url image_path=sorted_levels.first.image_path title=best_text %}
 
