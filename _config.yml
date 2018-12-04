@@ -25,6 +25,8 @@ _source_editor:
   theme: dracula
 
 _options:
+  content:
+    styles: /css/predefined-styles.css
   image_path:
     uploads_dir: "images/:title/"
     resize_style: "stretch"
