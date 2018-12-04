@@ -26,9 +26,9 @@ _source_editor:
 
 _options:
   image_path:
-    uploads_dir: "images/:title/:title"
+    uploads_dir: "images/:title/"
   sky_image_path:
-    uploads_dir: "images/:title/:title sky"
+    uploads_dir: "images/:title/"
 
 plugins:
   - jekyll-feed
