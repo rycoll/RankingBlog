@@ -21,6 +21,9 @@ defaults:
     values:
       layout: "level"
 
+_source_editor:
+  theme: twilight
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
