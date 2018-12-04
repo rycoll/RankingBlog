@@ -26,7 +26,7 @@ _source_editor:
 
 _options:
   content:
-    styles: /css/predefined-styles.css
+    styles: /css/styles.css
   image_path:
     uploads_dir: "images/:title/"
     resize_style: "stretch"
