@@ -29,6 +29,8 @@ _options:
     uploads_dir: "images/:title/"
   sky_image_path:
     uploads_dir: "images/:title/"
+  images:
+    resize_style: "contain"
 
 plugins:
   - jekyll-feed
