@@ -2,3 +2,7 @@ span.mono-blue-text {
     font-family: monospace;
     color: blue;
 }
+
+p.red-text {
+    color: red;
+}
