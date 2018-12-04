@@ -20,6 +20,9 @@ defaults:
       type: "levels"
     values:
       layout: "level"
+      _comments:
+        title: The page title
+        
 
 _source_editor:
   theme: dracula
