@@ -1,1 +1,1 @@
-/levels/* /index
+/redirect /index
