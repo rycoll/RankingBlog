@@ -3,7 +3,7 @@ title: Aquaria Towers
 hub: Summer Forest
 chron_order: 7
 image_path: /images/Aquaria_Towers/aquaria-towers.jpg
-sky_image_path:
+sky_image_path: /images/Aquaria_Towers/aquaria-towers-sky.png
 score: 4.3
 art: 4.5
 setting: 5
