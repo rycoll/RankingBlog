@@ -10,19 +10,19 @@ layout: default
     {% assign contentArray = page.content | markdownify | split: site.excerpt_separator %}
 
     <h3>Aesthetics: {{page.art}} / 5</h3>
-    <p class='editable'>{{ contentArray[0] }}</p>
+    <p class='editable' data-cms-options='{"bold":true,"italic":true,"embed":false}'>{{ contentArray[0] }}</p>
     <hr>
 
     <h3>Setting: {{page.setting}} / 5</h3>
-    <p class='editable'>{{ contentArray[1] }}</p>
+    <p class='editable' data-cms-options='{"bold":true,"italic":true,"embed":false}'>{{ contentArray[1] }}</p>
     <hr>
 
     <h3>Quests: {{page.gameplay}} / 5</h3>
-    <p class='editable'>{{ contentArray[2] }}</p>
+    <p class='editable' data-cms-options='{"bold":true,"italic":true,"embed":false}'>{{ contentArray[2] }}</p>
     <hr>
 
     <h3>Overall: {{page.score}} / 5</h3>
-    <p class='editable'>{{ contentArray[3] }}</p>
+    <p class='editable' data-cms-options='{"bold":true,"italic":true,"embed":true}'>{{ contentArray[3] }}</p>
 </div>
 
 <a class='editor-link' href="cloudcannon:#title">Edit level title</a><br>
