@@ -27,12 +27,10 @@ _source_editor:
 _options:
   image_path:
     uploads_dir: "images/:title/"
+    resize_style: "cover"
   sky_image_path:
     uploads_dir: "images/:title/"
-  images/:
-    width: 100
-    height: 100
-    resize_style: "contain"
+    resize_style: "cover"
 
 plugins:
   - jekyll-feed
