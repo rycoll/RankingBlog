@@ -25,9 +25,9 @@ _source_editor:
   theme: dracula
 
 _options:
-  image:
+  image_path:
     uploads_dir: "images/:title/:title"
-  sky_image:
+  sky_image_path:
     uploads_dir: "images/:title/:title sky"
 
 plugins:
