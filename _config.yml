@@ -24,6 +24,12 @@ defaults:
 _source_editor:
   theme: dracula
 
+_options:
+  image:
+    uploads_dir: "images/:title/:title"
+  sky_image:
+    uploads_dir: "images/:title/:title sky"
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
