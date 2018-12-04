@@ -22,7 +22,7 @@ defaults:
       layout: "level"
       _comments:
         title: The page title
-        
+        chron_order: Indicates where this level should sit in an ordered list
 
 _source_editor:
   theme: dracula
