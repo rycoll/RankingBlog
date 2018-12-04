@@ -3,6 +3,8 @@ excerpt_separator: "<!--excerpt-->"
 title: Ripto's Rankings
 description: Every Spyro 2 level, ranked
 
+include: _schedule.txt
+
 collections:
   levels:
     output: true
