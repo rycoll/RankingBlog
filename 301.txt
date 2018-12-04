@@ -1,1 +1,1 @@
-/about /index
+/about.html /index
