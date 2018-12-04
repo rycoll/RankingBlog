@@ -22,7 +22,7 @@ defaults:
       layout: "level"
 
 _source_editor:
-  theme: twilight
+  theme: dracula
 
 plugins:
   - jekyll-feed
