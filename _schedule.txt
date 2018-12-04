@@ -1,1 +1,2 @@
 2019-01-01T10:00:00+00:00,Publish Post,_posts/2019-01-01-test-future-post.md
+2020-01-01T10:00:00+00:00,Publish 2020 Post,_posts/2020-01-01-far-future-post.md
