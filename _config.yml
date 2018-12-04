@@ -24,7 +24,6 @@ defaults:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-cloudcannon-schedule
 
 feed:
   collections:
