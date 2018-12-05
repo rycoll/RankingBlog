@@ -4,7 +4,7 @@ layout: test
 front_matter_test_image:
 ---
 
-Front matter test image:![]({{page.test_image}})
+Front matter test image:![]({{page.front_matter_test_image}})
 
 Data file test image:![]({{site.data.test.upload_image}})
 
