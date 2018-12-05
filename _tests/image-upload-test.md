@@ -1,7 +1,11 @@
 ---
 title: Image Upload Test
 layout: test
+test_image:
 ---
+Front matter test image:
+<img src="{{page.test_image}}">
+
 
 ![](/uploads/icy-speedway.png)
 
