@@ -1,5 +1,5 @@
 ---
-title: Image Upload Test
+title: "Image Upload Test \U0001F440"
 layout: test
 front_matter_test_image: /uploads/colossus-2.jpg
 ---
