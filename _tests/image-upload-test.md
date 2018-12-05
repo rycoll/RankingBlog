@@ -5,4 +5,8 @@ layout: test
 
 ![](/uploads/icy-speedway.png)
 
+^ this png tested in the Content Editor
+
+v this jpg tested in the Content Editor
+
 ![](/uploads/icy-speedway.jpg)
