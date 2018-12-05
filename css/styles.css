@@ -150,6 +150,7 @@ a, a:visited {
 .cc-active a {
     text-decoration: underline;
     color: red;
+    font-size: 3em;
 }
 
 #site_title {
