@@ -3,14 +3,8 @@ title: Image Upload Test
 layout: test
 front_matter_test_image: /uploads/colossus-2.jpg
 ---
-
-Front matter test image:
-
-![](/uploads/mystic-marsh-1.jpg)
-
-Data file test image:![]()
-
- 
+This image is loaded from a data file:
+![]({{site.data.test.upload_image}})
 
 ![](/uploads/icy-speedway.png)
 
