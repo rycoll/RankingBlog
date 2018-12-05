@@ -1,12 +1,12 @@
 ---
-title: Image Upload Test
+title: Image Upload Test ;)
 layout: test
 front_matter_test_image: /uploads/colossus-2.jpg
 ---
-This image is loaded from a data file:
-![]({{site.data.image_upload_test.upload_image}})
 
- this png tested in the Content Editor:
+This image is loaded from a data file:![]({{site.data.image_upload_test.upload_image}})
+
+this png tested in the Content Editor:
 
 ![](/uploads/icy-speedway.png)
 
