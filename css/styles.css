@@ -147,7 +147,7 @@ a, a:visited {
     color: orange;
 }
 
-.cc-active {
+#active-link a {
     text-decoration: underline;
     color: red;
     font-size: 3em;
