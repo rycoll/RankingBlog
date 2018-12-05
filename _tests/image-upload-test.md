@@ -17,6 +17,14 @@ this png tested in the Visual Editor:
 
 this jpg tested in the Visual Editor:
 
+![](/images/Canyon Speedway/Canyon Speedway.jpg)
+
+&nbsp;
+
+this jpg tested in the Visual Editor, chosen from previously uploaded images:
+
+&nbsp;
+
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQYV2NYtWrVfwAG/gL+NbCogwAAAABJRU5ErkJggg==){: .cms-image-placeholder}
 
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQYV2NYtWrVfwAG/gL+NbCogwAAAABJRU5ErkJggg==){: .cms-image-placeholder}
