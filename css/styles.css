@@ -25,7 +25,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.archive-grid a, .award-container a, .featured-level-container a {
+a {
     text-decoration: none;
 }
 
@@ -135,7 +135,6 @@ body {
 #site_header {
     background-color: purple;
     color: orange;
-    text-decoration: none;
     width: 100%;
     padding: 10px;
     display: flex;
