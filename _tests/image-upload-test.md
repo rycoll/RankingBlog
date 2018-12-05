@@ -6,11 +6,11 @@ front_matter_test_image: /uploads/colossus-2.jpg
 This image is loaded from a data file:
 ![]({{site.data.test.upload_image}})
 
+ this png tested in the Content Editor:
+
 ![](/uploads/icy-speedway.png)
 
-^ this png tested in the Content Editor
-
-v this jpg tested in the Content Editor
+v this jpg tested in the Content Editor:
 
 ![](/uploads/icy-speedway.jpg)
 
