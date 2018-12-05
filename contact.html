@@ -2,6 +2,8 @@
 title: Contact
 permalink: /contact
 ---
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 <h1 style="text-align: center;">Contact</h1>
 <form method="post" action="/success.html">
     <label>Your Email Address</label>
@@ -15,6 +17,8 @@ permalink: /contact
     
     <label>Message</label>
     <textarea name="message"></textarea>
+    
+    <div class="g-recaptcha" data-sitekey="6LeT3H4UAAAAAPxHF0v_eyffUanrt7qNOOxzEbIo"></div><br>
     
     <input type="hidden" name="_to" value="ryan@cloudcannon.com">
     <input type="text" name="_gotcha" style="display: none;">
