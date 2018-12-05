@@ -1,10 +1,13 @@
 ---
 title: Image Upload Test
 layout: test
-test_image:
+front_matter_test_image:
 ---
 Front matter test image:
 <img src="{{page.test_image}}">
+
+Data file test image:
+<img src="{{site.data.test.upload_image}}">
 
 
 ![](/uploads/icy-speedway.png)
