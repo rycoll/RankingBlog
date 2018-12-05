@@ -4,3 +4,5 @@ layout: test
 ---
 
 ![](/uploads/icy-speedway.png)
+
+![](/uploads/icy-speedway.jpg)
