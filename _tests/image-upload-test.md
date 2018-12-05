@@ -1,7 +1,7 @@
 ---
 title: Image Upload Test
 layout: test
-front_matter_test_image:
+front_matter_test_image: /uploads/mystic-marsh-1.jpg
 ---
 
 Front matter test image:![]({{page.front_matter_test_image}})
