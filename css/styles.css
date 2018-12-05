@@ -143,6 +143,10 @@ a, a:visited {
     margin-bottom: 10px;
 }
 
+#site_header a {
+    color: orange;
+}
+
 .cc-active {
     text-decoration: underline;
     color: red;
