@@ -13,7 +13,7 @@ v this jpg tested in the Content Editor
 
 this png tested in the Visual Editor:
 
-&nbsp;
+![](/uploads/fracture-hills.png)
 
 &nbsp;
 
