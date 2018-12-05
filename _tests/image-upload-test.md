@@ -4,9 +4,13 @@ layout: test
 front_matter_test_image:
 ---
 
-Front matter test image:![](/uploads/mystic-marsh-1.jpg)
+Front matter test image:
+
+![](/uploads/mystic-marsh-1.jpg)
 
 Data file test image:![]()
+
+&nbsp;
 
 ![](/uploads/icy-speedway.png)
 
@@ -24,11 +28,11 @@ this jpg tested in the Visual Editor:
 
 ![](/images/Canyon Speedway/Canyon Speedway.jpg)
 
- 
+&nbsp;
 
 this jpg tested in the Visual Editor, chosen from previously uploaded images:
 
- 
+&nbsp;
 
 ![](/images/Colossus/Colossus sky.png)
 
