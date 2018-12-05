@@ -1,7 +1,7 @@
 ---
 title: Image Upload Test
 layout: test
-front_matter_test_image:
+front_matter_test_image: /uploads/colossus-2.jpg
 ---
 
 Front matter test image:
@@ -10,7 +10,7 @@ Front matter test image:
 
 Data file test image:![]()
 
-&nbsp;
+ 
 
 ![](/uploads/icy-speedway.png)
 
@@ -28,11 +28,11 @@ this jpg tested in the Visual Editor:
 
 ![](/images/Canyon Speedway/Canyon Speedway.jpg)
 
-&nbsp;
+ 
 
 this jpg tested in the Visual Editor, chosen from previously uploaded images:
 
-&nbsp;
+ 
 
 ![](/images/Colossus/Colossus sky.png)
 
