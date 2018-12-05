@@ -10,3 +10,11 @@ layout: test
 v this jpg tested in the Content Editor
 
 ![](/uploads/icy-speedway.jpg)
+
+this png tested in the Visual Editor:
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
