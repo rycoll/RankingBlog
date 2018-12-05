@@ -4,7 +4,7 @@ layout: test
 front_matter_test_image: /uploads/colossus-2.jpg
 ---
 This image is loaded from a data file:
-![]({{site.data.test.upload_image}})
+![]({{site.data.image_upload_test.upload_image}})
 
  this png tested in the Content Editor:
 
