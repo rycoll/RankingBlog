@@ -8,11 +8,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.cc-active {
-    border: 2px solid black;
-    opacity: 0.5;
-}
-
 .editor-link {
     display: none;
 }
@@ -153,7 +148,7 @@ body {
     color: orange;
 }
 
-#active-nav-link a {
+#site_header .cc-active a {
     text-decoration: underline;
     color: red;
 }
