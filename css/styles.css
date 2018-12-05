@@ -148,7 +148,7 @@ body {
     color: orange;
 }
 
-#site_header .cc-active a {
+.cc-active a {
     text-decoration: underline;
     color: red;
 }
