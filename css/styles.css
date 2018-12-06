@@ -8,7 +8,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.cc-active {
+.cc-active a {
     border: 2px dotted black !important;
 }
 
