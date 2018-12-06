@@ -1,7 +1,8 @@
 ---
 title: Input Test
 layout: test
-twitter:
-facebook:
-github:
+twitter: ccthelongplay
+facebook: CloudCannon
+github: rycoll
 ---
+
