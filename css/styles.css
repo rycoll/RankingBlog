@@ -9,7 +9,7 @@ body {
 }
 
 .cc-active {
-    border: 2px dotted black;
+    border: 2px dotted black !important;
 }
 
 .editor-link {
