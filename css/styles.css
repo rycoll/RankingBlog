@@ -9,7 +9,8 @@ body {
 }
 
 .cc-active a {
-    border: 2px dotted black !important;
+    background-color: black;
+    color: white;
 }
 
 .editor-link {
