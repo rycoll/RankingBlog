@@ -1,7 +1,8 @@
 ---
 title: Editor Toolbar Test
 layout: test
-test_description: Hello, this is a test description.
+test_html: Hello, this is a test for HTML rich text.
+test_markdown: Hello, this is a test for Markdown rich text.
 ---
 
 Content editor:
