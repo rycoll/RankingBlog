@@ -32,9 +32,6 @@ defaults:
     values:
       layout: "test"
 
-_source_editor:
-  theme: dracula
-
 _options:
   image_path:
     uploads_dir: "images/:title/"
