@@ -1,1 +1,1 @@
-/redirect /tests/301-redirect-test.html
+/redirect.html /tests/301-redirect-test.html
