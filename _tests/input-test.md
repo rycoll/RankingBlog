@@ -5,9 +5,4 @@ twitter: ccthelongplay
 facebook: CloudCannon
 github: rycoll
 ---
-
-Twitter: {{page.twitter}}
-
-Facebook: {{page.facebook}}
-
-GitHub: {{page.github}}
+Check out the front matter fields in the content editor!
