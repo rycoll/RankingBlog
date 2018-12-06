@@ -28,6 +28,10 @@ Link [this](/tests/editor-toolbar-test.html) somewhere.
 
 > Bold, italicise, quote indent, and link [***this***](/tests/editor-toolbar-test.html).
 
-Front matter:{{page.test_html}}{{page.test_markdown}}
+Front matter:
+
+{{page.test_html}}
+
+{{page.test_markdown}}
 
 From data file:
