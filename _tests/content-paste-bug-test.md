@@ -4,7 +4,7 @@ layout: test
 ---
 Test code block:
 
-```html
+```md
 {% if page.layout == test %}
     <div class="bug-test-class">
         <p>Test test test</p>
