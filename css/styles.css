@@ -8,9 +8,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.cc-active a {
-    background-color: black !important;
-    color: white !important;
+a.cc-active {
+    background-color: black;
+    color: white;
 }
 
 .editor-link {
