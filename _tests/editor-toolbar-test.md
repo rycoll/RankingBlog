@@ -1,6 +1,7 @@
 ---
 title: Editor Toolbar Test
 layout: test
+test_description: Hello, this is a test description.
 ---
 
 Content editor:
