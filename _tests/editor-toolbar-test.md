@@ -35,3 +35,7 @@ Front matter:
 {{page.test_markdown}}
 
 From data file:
+
+{{site.data.editor_toolbar_test.test_html}}
+
+{{site.data.editor_toolbar_test.test_markdown}}
