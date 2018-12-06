@@ -6,3 +6,8 @@ facebook: CloudCannon
 github: rycoll
 ---
 
+Twitter: {{page.twitter}}
+
+Facebook: {{page.facebook}}
+
+GitHub: {{page.github}}
