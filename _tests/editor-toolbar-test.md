@@ -18,3 +18,9 @@ Testing the editor toolbar. Bold **this** word. Italicise *this* word. Bold and 
 Link [this](/tests/editor-toolbar-test.html) somewhere.
 
 > Bold, italicise, quote indent, and link [***this***](/tests/editor-toolbar-test.html).
+
+Front matter:
+{{page.test_html}}
+{{page.test_markdown}}
+
+From data file:
