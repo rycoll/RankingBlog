@@ -1,0 +1,1 @@
+/redirect /tests/301-redirect-test.md
