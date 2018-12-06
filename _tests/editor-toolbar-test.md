@@ -9,4 +9,10 @@ Testing the editor toolbar. Bold **this** word. Italicise *this* word. Bold and 
 
 Visual Editor:
 
-Testing the editor toolbar. Bold this word. Italicise this word. Bold and italicise this word.
+Testing the editor toolbar. Bold **this** word. Italicise *this* word. Bold and italicise ***this*** word.
+
+> Quote indent this.
+
+Link [this](/tests/editor-toolbar-test.html) somewhere.
+
+> Bold, italicise, quote indent, and link [***this***](/tests/editor-toolbar-test.html).
