@@ -8,6 +8,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a.cc-active {
+    background-color: black;
+    color: white;
+}
+
 .editor-link {
     display: none;
 }

@@ -1,0 +1,13 @@
+test_html: >-
+  <p>Here is some text: <strong>bold</strong>, <em>italicised</em>,
+  <em><strong>bold+brash</strong></em>, <a
+  href="/tests/editor-toolbar-test.html">linked</a>.</p><blockquote><p>Quote,
+  <strong>bold</strong>, <em>italicised</em>, <em><strong>both</strong></em>, <a
+  href="/tests/editor-toolbar-test.html">linked</a>.</p></blockquote>
+test_markdown: >-
+  Here is some text:&nbsp;**bold**, *italicised*, and ***both***.
+  [Link](/tests/editor-toolbar-test.html).
+
+
+  > Quote, **bold**, *italicised*, ***both***,
+  [linked](/tests/editor-toolbar-test.html).

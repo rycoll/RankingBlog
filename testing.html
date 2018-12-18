@@ -1,11 +1,8 @@
 ---
 title: Testing
 permalink: /testing
+layout: test
 ---
-<div class='editable'>
-<h3>Image 1</h3>
-
-<h3>Image 2</h3>
-
-<h3>Image 3</h3>
-</div>
+{% for test in site.tests %}
+    <a href="{{test.url}}">{{test.title}}</a><br>
+{% endfor %}

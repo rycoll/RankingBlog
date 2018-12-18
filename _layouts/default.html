@@ -1,15 +1,17 @@
-<head>
-    <title>{{ page.title }}</title>
-    <link href='{{ "css/styles.css" | relative_url }}' type='text/css' rel='stylesheet'>
-    <link href='{{ "css/predefined-styles.css" | relative_url }}' type='text/css' rel='stylesheet'>
-    <link rel="icon" type="image/x-icon" href="/favicon.png">
-    {% feed_meta %}
-    {% seo %}
-    {% if page.use_recaptcha %}
-        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    {% endif %}
-</head>
-
-{% include site_header.html %}
-
-{{content}}
+<html>
+    <head>
+        <title>{{ page.title }}</title>
+        <link href='{{ "css/styles.css" | relative_url }}' type='text/css' rel='stylesheet'>
+        <link href='{{ "css/predefined-styles.css" | relative_url }}' type='text/css' rel='stylesheet'>
+        <link rel="icon" type="image/x-icon" href="/favicon.png">
+        {% feed_meta %}
+        {% seo %}
+        {% if page.use_recaptcha %}
+            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        {% endif %}
+    </head>
+    
+    {% include site_header.html %}
+    
+    {{content}}
+</html>
