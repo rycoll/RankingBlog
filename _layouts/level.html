@@ -8,7 +8,6 @@ layout: default
 </div>
 
 <div id='level-content'>
-    {% assign contentArray = page.content | markdownify | split: site.excerpt_separator %}
 
     <h3>Aesthetics: {{page.art}} / 5</h3>
     <p class='editable'></p>
@@ -32,6 +31,4 @@ layout: default
     </p>
 </div>
 
-<a class='editor-link' href="cloudcannon:#title">Edit level title</a><br />
-<a class='editor-link' href="cloudcannon:#score">Edit overall rating</a>
 
