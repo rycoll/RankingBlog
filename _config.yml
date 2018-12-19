@@ -7,8 +7,6 @@ collections:
   levels:
     output: true
   awards:
-  tests:
-    output: true
 
 defaults:
   - 
