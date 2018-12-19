@@ -23,12 +23,6 @@ defaults:
       _comments:
         title: The page title
         chron_order: Indicates where this level should sit in an ordered list
-  -
-    scope:
-      path: ""
-      type: "tests"
-    values:
-      layout: "test"
 
 _options:
   image_path:
