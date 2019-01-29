@@ -1,3 +1,5 @@
-obj-one:
-  - name: First Object
-  - number: 1
+my_array:
+  - entry 1
+  - two
+  - third entry
+  - entry four
