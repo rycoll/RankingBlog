@@ -1,6 +1,3 @@
 obj-one:
   - name: First Object
   - number: 1
-obj-two:
-  - name: Second Object
-  - number: 2
