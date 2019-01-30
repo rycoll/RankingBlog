@@ -1,5 +1,15 @@
 my_array:
-  - entry 1
-  - two
-  - third entry
-  - entry four
+  - "entry one"
+  - 2
+  - 
+    name: "My Object"
+    id: 100
+    child:
+      name: "Mini"
+      id: 10.0
+  -
+    phone: 4762083
+  - entry 4
+  - entry five
+  - entry 6
+  - entry seven
