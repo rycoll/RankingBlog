@@ -1,5 +1,7 @@
 test_array:
-  - name:
-    desc:
-    id:
+  - name: "My First Item"
+    desc: "This is my first item"
+    id: 002
     obj:
+      - name: "Cool boy"
+      - color: "mauve"
