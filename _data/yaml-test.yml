@@ -1,14 +1,13 @@
-- "entry one"
+- entry one
 - 2
-- 
-  name: "My Object"
+- name: My Object
   id: 100
   child:
-    name: "Mini"
-    id: 10.0
--
-  phone: 4762083
+    name: Mini
+    id: 10
+- phone: 4762083
 - entry 4
 - entry five
 - entry 6
 - entry seven
+-
