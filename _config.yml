@@ -36,12 +36,14 @@ _options:
 
 _array_structures:
   test_array:
-    field1: "First Field"
-    field2: "Second Field"
-    num_field: 100
-    obj_field:
-      name: "My Obj"
-      num: 10
+    - label: Label for new array item
+      icon: /favicon.png
+      value:
+        name: "New item"
+        desc: "It's a fun new item"
+        id: 001
+        obj:
+          - name: "Mrs. Object"
 
 plugins:
   - jekyll-feed
