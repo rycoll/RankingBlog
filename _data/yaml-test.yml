@@ -1,7 +1,35 @@
 test_array:
-  - name: "My First Item"
-    desc: "This is my first item"
-    id: 002
+  - name: New item
+    desc: It's a fun new item
+    id: 1
     obj:
-      - name: "Cool boy"
-      - color: "mauve"
+      - name:
+      - name: Mrs. Object
+      - name:
+  - name: My First Item
+    desc: This is my first item
+    id: 2
+    obj:
+      - name: Cool boy
+      - color: '#000000'
+  - name: New item yass
+    desc: It's a fun new item
+    id: 1
+    obj:
+      - name: Mrs. Object
+      - name:
+  - name: New item
+    desc: It's a fun new item
+    id: 1
+    obj:
+      - name: Mrs. Object
+  - name: New item
+    desc: It's a fun new item
+    id: 1
+    obj:
+      - name: Mrs. Object
+  - name: New item
+    desc: It's a fun new item
+    id: 1
+    obj:
+      - name: Mrs. Object
