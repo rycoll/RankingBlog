@@ -58,6 +58,12 @@ _array_structures:
           id: 001001
           obj:
             - name: "Mrs. Object (echo)"
+    - label: 4th choice for stress testing
+      value:
+        name: "NUM FOUR"
+    - label: A 5th choice
+      value:
+        name: "NUMBER 5"
 
 plugins:
   - jekyll-feed
