@@ -50,6 +50,14 @@ _array_structures:
         name: "Other new item"
         desc: "Yay variety"
         id: 110
+    - label: Recursive horror
+      value:
+        test_array:
+          name: "New item (echo)"
+          desc: "It's a fun new item (echo)"
+          id: 001001
+          obj:
+            - name: "Mrs. Object (echo)"
 
 plugins:
   - jekyll-feed
