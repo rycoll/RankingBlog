@@ -44,6 +44,12 @@ _array_structures:
         id: 001
         obj:
           - name: "Mrs. Object"
+    - label: Label for alternate new item
+      icon: /favicon.png
+      value:
+        name: "Other new item"
+        desc: "Yay variety"
+        id: 110
 
 plugins:
   - jekyll-feed
