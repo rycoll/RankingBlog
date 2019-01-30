@@ -53,11 +53,7 @@ _array_structures:
     - label: Recursive horror
       value:
         test_array:
-          - name: "New item (echo)"
-            desc: "It's a fun new item (echo)"
-            id: 001001
-            obj:
-              - name: "Mrs. Object (echo)"
+          - name: "Echooo"
     - label: 4th choice for stress testing
       value:
         name: "NUM FOUR"
