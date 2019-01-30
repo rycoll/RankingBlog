@@ -64,6 +64,18 @@ _array_structures:
     - label: A 5th choice
       value:
         name: "NUMBER 5"
+    - label: A 6th choice
+      value:
+        name: "NUMBER 6"
+    - label: A 7th choice
+      value:
+        name: "NUMBER 7"
+    - label: A 8th choice
+      value:
+        name: "NUMBER 8"
+    - label: A 9th choice
+      value:
+        name: "NUMBER 9"
 
 plugins:
   - jekyll-feed
