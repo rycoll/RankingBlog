@@ -5,3 +5,51 @@ test_array:
     obj:
       - name: Cool boy
       - color: '#000000'
+  - test_array:
+      - name: New item (echo)
+        desc: It's a fun new item (echo)
+        id: 513
+        obj:
+          - name: Mrs. Object (echo)
+      - test_array:
+          - name: New item (echo)
+            desc: It's a fun new item (echo)
+            id: 513
+            obj:
+              - name: Mrs. Object (echo)
+          - test_array:
+              - name: New item (echo)
+                desc: It's a fun new item (echo)
+                id: 513
+                obj:
+                  - name: Mrs. Object (echo)
+              - test_array:
+                  - name: New item (echo)
+                    desc: It's a fun new item (echo)
+                    id: 513
+                    obj:
+                      - name: Mrs. Object (echo)
+                  - test_array:
+                      - name: New item (echo)
+                        desc: It's a fun new item (echo)
+                        id: 513
+                        obj:
+                          - name: Mrs. Object (echo)
+                      - test_array:
+                          - name: New item (echo)
+                            desc: It's a fun new item (echo)
+                            id: 513
+                            obj:
+                              - name: Mrs. Object (echo)
+                          - test_array:
+                              - name: New item (echo)
+                                desc: It's a fun new item (echo)
+                                id: 513
+                                obj:
+                                  - name: Mrs. Object (echo)
+                              - test_array:
+                                  - name: New item (echo)
+                                    desc: It's a fun new item (echo)
+                                    id: 513
+                                    obj:
+                                      - name: Mrs. Object (echo)
