@@ -34,6 +34,15 @@ _options:
     uploads_dir: "images/:title/"
     resize_style: "cover"
 
+_array_structures:
+  test_array:
+    field1: "First Field"
+    field2: "Second Field"
+    num_field: 100
+    obj_field:
+      name: "My Obj"
+      num: 10
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
