@@ -72,6 +72,21 @@ _array_structures:
     - label: A 9th choice
       value:
         name: "NUMBER 9"
+    - label: A 9th choice
+      value:
+        name: "NUMBER 10"
+    - label: A 10th choice
+      value:
+        name: "NUMBER 11"
+    - label: A 11th choice
+      value:
+        name: "NUMBER 12"
+    - label: A 12th choice
+      value:
+        name: "NUMBER 13"
+    - label: A 13th choice
+      value:
+        name: "NUMBER 13"
 
 plugins:
   - jekyll-feed
