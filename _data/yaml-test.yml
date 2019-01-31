@@ -6,3 +6,5 @@ my-obj:
   
 _my-hidden-obj:
   desc: "Shouldn't see this"
+  
+hello_code_block: console.log('Hello World');
