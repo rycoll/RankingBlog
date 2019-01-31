@@ -3,6 +3,10 @@ my-obj:
   
 my-obj:
   desc: "Hi!"
+  greeting_html: <p>Hello World</p>
+  
+my-obj:
+  desc: "Hello!"
   
 my_greeting_html: <p>Hello Woooorld</p>
   
