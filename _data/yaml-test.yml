@@ -3,7 +3,9 @@ my-obj:
   hello_html: <p>Hello World</p>
   hello_markdown: \## Hello World
   my_tick_box: true
-  
+  javascript_code_block: console.log("Hello World");
+  brand_colour: '#f05f40'
+  send_to_email_address: ryan@cloudcannon.com
   _my_hidden_field:
     desc: "Shouldn't see this"
   
