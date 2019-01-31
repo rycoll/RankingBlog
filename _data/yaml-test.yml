@@ -4,6 +4,8 @@ my-obj:
 my-obj:
   desc: "Hi!"
   
+my_greeting_html: <p>Hello Woooorld</p>
+  
   
 _my-hidden-obj:
   desc: "Shouldn't see this"
