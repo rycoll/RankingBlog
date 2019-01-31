@@ -1,17 +1,3 @@
 test_array:
   - name: My First Item
     desc: This is my first item
-  - test_array:
-      - name: Nested item
-      - test_array:
-          - name: Nested item
-          - test_array:
-              - name: Nested item
-              - test_array:
-                  - name: Nested item
-                  - test_array:
-                      - name: Nested item
-                      - test_array:
-                          - name: Nested item
-                          - test_array:
-                              - name: Nested item
