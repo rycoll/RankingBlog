@@ -2,6 +2,7 @@ my_arr:
 - 
   my1-obj:
     greeting_html: <p>Hello World</p>
+    selection:
     child:
       name: "Geoffrey"
 -  
