@@ -16,7 +16,6 @@ _array_structures:
         name: "New item"
         desc: "It's a new item"
     - label: Label for alternate new item
-      icon: /favicon.png
       value:
         name: "Other new item"
         desc: "It's another new item"
