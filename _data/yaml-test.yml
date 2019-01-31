@@ -1,3 +1,7 @@
+my-obj:
+  signifier: My Array Item
+  num: 1
+
 - 
   signifier: My Array Item
   num: 1
