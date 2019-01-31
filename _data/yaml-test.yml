@@ -5,20 +5,16 @@ _array_structures:
       icon: image
       value:
         name: "New item"
-        desc: "It's a fun new item"
-        id: 001
-        obj:
-          - name: "Mrs. Object"
+        desc: "It's a new item"
     - label: Label for alternate new item
       icon: /favicon.png
       value:
         name: "Other new item"
-        desc: "Yay variety"
-        id: 110
-    - label: Recursive horror
+        desc: "It's another new item"
+    - label: Recursive item
       value:
         test_array:
-          - name: "Echooo"
+          - name: "Recursive item"
     - label: 4th choice for stress testing
       value:
         name: "NUM FOUR"
@@ -37,26 +33,22 @@ _array_structures:
     - label: A 9th choice
       value:
         name: "NUMBER 9"
-    - label: A 9th choice
-      value:
-        name: "NUMBER 10"
     - label: A 10th choice
       value:
-        name: "NUMBER 11"
+        name: "NUMBER 10"
     - label: A 11th choice
       value:
-        name: "NUMBER 12"
+        name: "NUMBER 11"
     - label: A 12th choice
       value:
-        name: "NUMBER 13"
+        name: "NUMBER 12"
     - label: A 13th choice
       value:
         name: "NUMBER 13"
+    - label: A 14th choice
+      value:
+        name: "NUMBER 14"
 ---
 test_array:
   - name: My First Item
     desc: This is my first item
-    id: 2
-    obj:
-      - name: Cool boy
-      - color: '#000000'
