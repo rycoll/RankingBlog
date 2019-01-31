@@ -1,0 +1,7 @@
+my-obj:
+  desc: "This is an object"
+  _my_hidden_field:
+    desc: "Shouldn't see this"
+  
+_my-hidden-obj:
+  desc: "Shouldn't see this"
