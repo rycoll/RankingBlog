@@ -1,3 +1,58 @@
+---
+_array_structures:
+  test_array:
+    - label: Label for new array item
+      icon: image
+      value:
+        name: "New item"
+        desc: "It's a fun new item"
+        id: 001
+        obj:
+          - name: "Mrs. Object"
+    - label: Label for alternate new item
+      icon: /favicon.png
+      value:
+        name: "Other new item"
+        desc: "Yay variety"
+        id: 110
+    - label: Recursive horror
+      value:
+        test_array:
+          - name: "Echooo"
+    - label: 4th choice for stress testing
+      value:
+        name: "NUM FOUR"
+    - label: A 5th choice
+      value:
+        name: "NUMBER 5"
+    - label: A 6th choice
+      value:
+        name: "NUMBER 6"
+    - label: A 7th choice
+      value:
+        name: "NUMBER 7"
+    - label: A 8th choice
+      value:
+        name: "NUMBER 8"
+    - label: A 9th choice
+      value:
+        name: "NUMBER 9"
+    - label: A 9th choice
+      value:
+        name: "NUMBER 10"
+    - label: A 10th choice
+      value:
+        name: "NUMBER 11"
+    - label: A 11th choice
+      value:
+        name: "NUMBER 12"
+    - label: A 12th choice
+      value:
+        name: "NUMBER 13"
+    - label: A 13th choice
+      value:
+        name: "NUMBER 13"
+---
 test_array:
   - name: My First Item
     desc: This is my first item
