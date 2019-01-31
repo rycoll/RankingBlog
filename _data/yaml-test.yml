@@ -1,6 +1,6 @@
 my-obj:
   hello_html: <p>Hello World</p>
-  hello_markdown: \## Hello World
+  hello_markdown: Hello World
   
 _my-hidden-obj:
   desc: "Shouldn't see this"
