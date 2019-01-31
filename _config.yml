@@ -37,7 +37,7 @@ _options:
 _array_structures:
   test_array:
     - label: Label for new array item
-      icon: favicon.png
+      icon: /favicon.png
       value:
         name: "New item"
         desc: "It's a fun new item"
