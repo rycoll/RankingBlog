@@ -1,6 +1,9 @@
 my-obj:
   desc: "This is an object"
   hello_html: <p>Hello World</p>
+  hello_markdown: \## Hello World
+  my_tick_box: true
+  
   _my_hidden_field:
     desc: "Shouldn't see this"
   
