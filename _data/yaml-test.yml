@@ -2,12 +2,12 @@ my-obj:
   signifier: My Array Item
   num: 1
 
-- 
-  signifier: My Array Item
-  num: 1
-- 
-  signifier: My 2nd Item
-  num: 2
-- 
-  signifier: My 3rd Item
-  num: 3
+- obj:
+    signifier: My Array Item
+    num: 1
+- obj:
+    signifier: My 2nd Item
+    num: 2
+- obj:
+    signifier: My 3rd Item
+    num: 3
