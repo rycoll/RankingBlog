@@ -2,6 +2,8 @@ my_arr:
 - 
   my1-obj:
     greeting_html: <p>Hello World</p>
+    child:
+      name: "Geoffrey"
 -  
   my2-obj:
     desc: "Hi!"
