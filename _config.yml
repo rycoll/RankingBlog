@@ -22,7 +22,7 @@ _array_structures:
     - label: Recursive item
       value:
         test_array:
-          - name: "Recursive item"
+          - name: "Nested item"
     - label: 4th choice for stress testing
       value:
         name: "NUM FOUR"
