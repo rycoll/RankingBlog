@@ -3,6 +3,11 @@ excerpt_separator: "<!--excerpt-->"
 title: Ripto's Rankings
 description: Every Spyro 2 level, ranked
 
+selections:
+  - Option 1
+  - Option 2
+  - Option 3
+
 collections:
   levels:
     output: true
