@@ -1,10 +1,9 @@
-test_array:
-  - name: My First Item
-    desc: This is my first item
-    
-- signifier: My Array Item
+- 
+  signifier: My Array Item
   num: 1
-- signifier: My 2nd Item
+- 
+  signifier: My 2nd Item
   num: 2
-- signifier: My 3rd Item
+- 
+  signifier: My 3rd Item
   num: 3
