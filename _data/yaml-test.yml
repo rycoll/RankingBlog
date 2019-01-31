@@ -1,5 +1,6 @@
 my-obj:
   desc: "This is an object"
+  hello_html: <p>Hello World</p>
   _my_hidden_field:
     desc: "Shouldn't see this"
   
