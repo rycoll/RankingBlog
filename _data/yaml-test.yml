@@ -1,4 +1,5 @@
 my-obj:
+  newsletter_document_path: "/newletter.docx"
   words_description: "Here are lots of words"
   selection:
   child:
