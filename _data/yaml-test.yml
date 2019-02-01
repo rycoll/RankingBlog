@@ -1,7 +1,7 @@
 my_arr:
-  - selection: Option 3
+  - words_html: <p>Words</p>
+    selection: Option 3
     num: 1
-    words_html: <p>Words</p>
     words_markdown: Words
   - 5
   
