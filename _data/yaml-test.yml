@@ -1,6 +1,6 @@
 my_arr:
-  - image: /uploads/blue-emblem-on-transparent-no-padding-2048x2048.png
-    selection: Option 2
+  - selection: Option 2
+    image: /uploads/blue-emblem-on-transparent-no-padding-2048x2048.png
     words_markdown: Words
     string0: yo
     words_html: <p>Words</p>
