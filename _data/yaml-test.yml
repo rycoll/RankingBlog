@@ -1,15 +1,3 @@
-my_arr:
-  - my1-obj:
-      greeting_html: <p>Hello World</p>
-      selection: Option 2
-      child:
-        name: Geoffrey
-  - my2-obj:
-      desc: Hi!
-      greeting_html: <p>Hello World</p>
-  - my3-obj:
-      desc: Hello!
-  - my_greeting_html: <p>Hello Woooorld</p>
-_my-hidden-obj:
-  desc: Shouldn't see this
-hello_code_block: console.log('Hello World');
+my_obj:
+  selection:
+  num: 1
