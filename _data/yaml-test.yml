@@ -1,5 +1,4 @@
 my_arr:
-- my_obj:
-  selection: Option 2
+- selection: Option 2
   num: 1
 - 5
