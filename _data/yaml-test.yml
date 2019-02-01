@@ -1,5 +1,5 @@
 my_arr:
-  - image: /my-img.png
+  - image: /uploads/webp-net-resizeimage.png
     selection: Option 2
     words_markdown: Words
     string0: yo
