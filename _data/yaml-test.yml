@@ -1,5 +1,6 @@
 my_arr:
-  - selection: Option 2
+  - image: /my-img.png
+    selection: Option 2
     words_markdown: Words
     string0: yo
     words_html: <p>Words</p>
