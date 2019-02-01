@@ -1,4 +1,4 @@
 my_arr:
-- selection: Option 2
-  num: 1
-- 5
+  - selection: Option 1
+    num: 1
+  - 5
