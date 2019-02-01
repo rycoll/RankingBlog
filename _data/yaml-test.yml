@@ -1,5 +1,9 @@
 my_arr:
-  - selection: Option 1
+  - dropdown:
+      - o1
+      - o2
+      - o3
+    selection: Option 1
     "ryan's cool image": /uploads/blue-emblem-on-transparent-no-padding-2048x2048.png
     words_markdown: Words
     string0: yo
