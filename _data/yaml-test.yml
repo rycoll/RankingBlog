@@ -1,6 +1,6 @@
 my_arr:
   - selection: Option 1
-    image: /uploads/blue-emblem-on-transparent-no-padding-2048x2048.png
+    "ryan's cool image": /uploads/blue-emblem-on-transparent-no-padding-2048x2048.png
     words_markdown: Words
     string0: yo
     words_html: <p>Words</p>
