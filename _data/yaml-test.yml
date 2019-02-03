@@ -7,8 +7,8 @@ my_arr:
   - 5
  
 my_obj:
-  selection: op2
   ryan's cool image: /uploads/blue-emblem-on-transparent-no-padding-2048x2048.png
+  selection: op2
   words_markdown: Words
   string0: yo
   words_html: <p>Words</p>
