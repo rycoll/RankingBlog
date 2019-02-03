@@ -2,6 +2,7 @@
 title: Index
 permalink: /index
 my_num: 9
+my_image:
 ---
 
 {% assign sorted_levels = site.levels | sort: "score" | reverse %}
@@ -19,3 +20,7 @@ my_num: 9
 
 
 <a href="cloudcannon:#my_num" data-cms-editor-link-style="modal" class="cms-editor-link">Edit number</h1>
+
+<div data-cms-editor-link:"#cloudcannon:#my_image" style="background-image: url({{page.my_image}})">
+    
+</div>
