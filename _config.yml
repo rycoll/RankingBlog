@@ -4,9 +4,9 @@ title: Ripto's Rankings
 description: Every Spyro 2 level, ranked
 
 selection:
-  op1: OPTION ONE
-  op2: OPTION TWO
-  op3: OPTION THREE
+  option1: OPTION ONE
+  option2: OPTION TWO
+  option3: OPTION THREE
 
 collections:
   levels:
