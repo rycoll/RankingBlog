@@ -78,6 +78,7 @@ defaults:
 _options:
   content:
     embed: true
+    link: true
   image_path:
     uploads_dir: "images/:title/"
     resize_style: "stretch"
