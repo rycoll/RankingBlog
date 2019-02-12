@@ -1,3 +1,5 @@
 my_object:
   name: "Object"
+  child:
+    name: "Child Object"
 my_num: 5
