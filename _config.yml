@@ -17,7 +17,7 @@ _array_structures:
   test_array:
     - label: "Recursive"
       value:
-        name: "Recursive Options"
+        name: "Recursive Option"
         test_array:
     - label: "Option 2"
       value:
