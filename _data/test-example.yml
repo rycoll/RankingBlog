@@ -1,5 +1,5 @@
 my_object:
   num: 1
   child:
-    name: 11
+    num: 11
 my_num: 2
