@@ -15,9 +15,10 @@ collections:
 
 _array_structures:
   test_array:
-    - label: "Option 1"
+    - label: "Recursive"
       value:
-        name: "One"
+        name: "Recursive"
+        test_array:
     - label: "Option 2"
       value:
         name: "One"
