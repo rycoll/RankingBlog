@@ -1,6 +1,5 @@
 my_object:
-  name: "Object"
+  num: 1
   child:
-    name: "Child Object"
-my_num: 5
-name: "My yaml test"
+    name: 11
+my_num: 2
