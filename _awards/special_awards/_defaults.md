@@ -1,6 +1,6 @@
 ---
-title: Least Meaningful Quest
-level_name: Mystic Marsh
+title: 
+level_name:
 description:
 extra_field: 5
 ---
