@@ -12,6 +12,7 @@ collections:
   levels:
     output: true
   awards:
+  stuff:
 
 _array_structures:
   test_array:
