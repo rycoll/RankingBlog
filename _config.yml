@@ -13,6 +13,8 @@ collections:
     output: true
   awards:
   stuff:
+  collecties:
+    output: true
 
 _array_structures:
   test_array:
