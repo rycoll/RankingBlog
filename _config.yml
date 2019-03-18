@@ -10,9 +10,13 @@ selection:
 
 collections:
   levels:
+    title: Levels
     output: true
   awards:
+    title: Awards
+    icon: people
   stuff:
+    title: Stuff
   collecties:
     output: true
 
