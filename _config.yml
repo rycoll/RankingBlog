@@ -12,6 +12,8 @@ collections:
   levels:
     title: Levels
     output: true
+    image: webp-net-resizeimage.png
+    description: Here is a lot of text describing this collection. Levels is an avicii song.
   awards:
     title: Awards
     icon: people
