@@ -1,5 +1,0 @@
-my_object:
-  num: 1
-  child:
-    num: 11
-my_num: 2

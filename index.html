@@ -1,22 +1,13 @@
----
-title: Index
-permalink: /index
-test_number: 50
-selection:
----
+Welcome
 
-{% assign sorted_levels = site.levels | sort: "score" | reverse %}
 
-<div class="featured-level-container">
-    <h2 class='featured-level-title'>Featured Levels</h2>
-    {% assign best_text = "Best level: " | append: sorted_levels.first.title %}
-    {% include featured_item.html url=sorted_levels.first.url image_path=sorted_levels.first.image_path title=best_text %}
+<i class="fas fa-address-book"></i>
 
-    {% assign worst_text = "Worst level: " | append: sorted_levels.last.title %}
-    {% include featured_item.html url=sorted_levels.last.url image_path=sorted_levels.last.image_path title=worst_text %}
-</div>
-
-<h1 data-cms-editor-link="cloudcannon:#selection" data-cms-editor-link-style="modal" class="cms-editor-link">Edit number</h1>
-
-<div data-cms-editor-link:"#cloudcannon:#selection" data-cms-editor-link-style="modal" class="cms-editor-link">Select</div>
-
+<i class="fas fa-apple-alt"></i>
+<i class="fab fa-apple-alt"></i>
+<i class="fas fa-apple-alt"></i>
+<i class="fab fa-apple-alt"></i>
+<i class="fas fa-apple-alt"></i>
+<span class="fab fa-apple-alt"></span>
+<span class="fab fa-apple-alt"></span>
+<span class="fas fa-apple-alt"></span>
