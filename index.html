@@ -1,21 +1,81 @@
----
-title: Index
-permalink: /index
-test_number: 52
-selection:
----
+<html>
+    <head>
+        <title>Index</title>
+        <link href='/css/styles.css' type='text/css' rel='stylesheet'>
+        <link href='/css/predefined-styles.css' type='text/css' rel='stylesheet'>
+        <link rel="icon" type="image/x-icon" href="/favicon.png">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Ripto's Rankings" />
+        <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Index | Ripto’s Rankings</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Index" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Every Spyro 2 level, ranked" />
+<meta property="og:description" content="Every Spyro 2 level, ranked" />
+<meta property="og:site_name" content="Ripto’s Rankings" />
+<script type="application/ld+json">
+{"description":"Every Spyro 2 level, ranked","@type":"WebPage","url":"/index","headline":"Index","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
 
-Welcome
+        
+    </head>
+    
+    <header id='site_header'>
+    <div id='site_title'>
+        <a href='/index'>
+            <h1>Ripto's Rankings</h1>
+            <h4>Every level in Spyro 2, ranked</h4>
+        </a>
+    </div>
+    <div id='site_nav'>
+        <a href='/about' >
+    <h3>About</h3>
+</a>
 
-{% assign sorted_levels = site.levels | sort: "score" | reverse %}
+        <a href='/archive' >
+    <h3>All Levels</h3>
+</a>
+
+        <a href='/awards' >
+    <h3>Awards</h3>
+</a>
+
+        <a href='/search' >
+    <h3>Search</h3>
+</a>
+
+        <a href='/contact' >
+    <h3>Contact</h3>
+</a>
+
+        <a href='/testing' >
+    <h3>Tests</h3>
+</a>
+
+    </div>
+</header>
+
+    
+    Wlecome
+
+
 
 <div class="featured-level-container">
     <h2 class='featured-level-title'>Featured Levels</h2>
-    {% assign best_text = "Best level: " | append: sorted_levels.first.title %}
-    {% include featured_item.html url=sorted_levels.first.url image_path=sorted_levels.first.image_path title=best_text %}
+    
+    <a href='/levels/Crystal%20Glacier.html'>
+    <div class="archive-item" style='background-image: url(/images/Crystal%20Glacier/crystal-glacier.jpg)'>
+        <h3 class="archive-item-text">Best level: Crystal Glacier</h3>
+    </div>
+</a>
 
-    {% assign worst_text = "Worst level: " | append: sorted_levels.last.title %}
-    {% include featured_item.html url=sorted_levels.last.url image_path=sorted_levels.last.image_path title=worst_text %}
+    
+    <a href='/levels/Gulps_Arena.html'>
+    <div class="archive-item" style='background-image: url(/images/Gulps%20Arena/Gulps%20Arena.jpg)'>
+        <h3 class="archive-item-text">Worst level: Gulp's Overlook</h3>
+    </div>
+</a>
 </div>
 
 <h1 data-cms-editor-link="cloudcannon:#selection" data-cms-editor-link-style="modal" class="cms-editor-link">Edit number</h1>
@@ -32,3 +92,5 @@ Welcome
 <span class="fab fa-apple-alt"></span>
 <span class="fab fa-apple-alt"></span>
 <span class="fas fa-apple-alt"></span>
+
+</html>
