@@ -83,6 +83,7 @@ _options:
     code: true
     embed: true
     link: true
+    table: true
   image_path:
     uploads_dir: 'images/:title/'
     resize_style: stretch
