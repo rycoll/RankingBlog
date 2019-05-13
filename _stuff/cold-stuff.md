@@ -1,4 +1,5 @@
 ---
+test_array:
 ---
 
 Cold stuff
