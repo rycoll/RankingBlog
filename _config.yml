@@ -80,6 +80,7 @@ defaults:
         chron_order: Indicates where this level should sit in an ordered list
 _options:
   content:
+    code: true
     embed: true
     link: true
   image_path:
