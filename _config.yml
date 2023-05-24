@@ -80,8 +80,10 @@ defaults:
         chron_order: Indicates where this level should sit in an ordered list
 _options:
   content:
+    code: true
     embed: true
     link: true
+    table: true
   image_path:
     uploads_dir: 'images/:title/'
     resize_style: stretch
