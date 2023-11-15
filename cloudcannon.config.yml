@@ -1,0 +1,89 @@
+paths:
+  uploads: uploads
+  dam_uploads: ''
+  static: ''
+  dam_static: ''
+  collections: ''
+  data: _data
+  layouts: _layouts
+  includes: _includes
+collections_config:
+  data:
+    path: _data
+    output: false
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  pages:
+    path: ''
+    output: true
+    filter: strict
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  levels:
+    path: _levels
+    output: true
+    description: >-
+      Here is a lot of text describing this collection. Levels is an avicii
+      song.
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  awards:
+    path: _awards
+    output: false
+    icon: people
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+_inputs:
+  categories:
+    type: multiselect
+    options:
+      allow_create: true
+      empty_type: array
+    cascade: true
+  tags:
+    type: multiselect
+    options:
+      allow_create: true
+      empty_type: array
+    cascade: true
+  content:
+    type: text
+    options:
+      code: true
+      embed: true
+      link: true
+      table: true
+    cascade: true
+  image_path:
+    type: image
+    options:
+      uploads_dir: images/:title/
+      resize_style: stretch
+    cascade: true
+  sky_image_path:
+    type: image
+    options:
+      uploads_dir: images/:title/
+      resize_style: cover
+    cascade: true
+_select_data:
+  selection:
+    option1: OPTION ONE
+    option2: OPTION TWO
+    option3: OPTION THREE
+  feed:
+    collections:
+      - awards
+      - levels
+    path:
+_structures: {}
+_editables: {}
+data_config: {}
+timezone: Etc/UTC
