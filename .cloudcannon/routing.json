@@ -1,0 +1,9 @@
+{
+  "routes": [
+    {
+      "from": "/not-found/(.*)",
+      "to": "/index.html",
+      "status": 404
+    }
+  ]
+}
