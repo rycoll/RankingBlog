@@ -9,4 +9,4 @@ art: 3.5
 setting: 2.5
 gameplay: 3
 ---
-Aesthetics (art and music)fffStory and setting  Quests and gameplay  Overall analysis….
+Aesthetics (art and music)fffStory and setting  Quests and gameplay  Overall analysis?
