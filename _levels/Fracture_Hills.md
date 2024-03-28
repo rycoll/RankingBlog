@@ -10,4 +10,4 @@ setting: 2.5
 gameplay: 3
 ---
 
-Aesthetics (art and music)fffStory and setting <!--base32-cnw66tbje1u0-base32--> Quests and gameplay <!--base32-cnw66tbje1u0-base32--> Overall analysis
+Aesthetics (art and music)fffStory and setting <!--base32-cnw66tbje1u0-base32--> Quests and gameplay <!--base32-cnw66tbje1u0-base32--> Overall analysis.
