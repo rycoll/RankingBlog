@@ -1,0 +1,4 @@
+ls
+
+rm -rf Gemfile
+rm -rf Gemfile.lock
